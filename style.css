@@ -1,0 +1,73 @@
+body {
+    font-family: 'Chivo Mono', monospace;
+    background-color: #EEF5DB;
+    font-weight: bold;            
+}
+
+img {
+    /* display: block;
+    margin: auto; */
+    border-radius: 100px;
+}
+
+.origem {
+    font-weight: lighter;
+    text-decoration: underline;
+    color: #e66845;
+}
+
+h1, h2 {
+    color: #e66845;
+    text-align: center;
+}
+
+p a {
+  padding: 50px 0;
+}
+
+#descricao, .indice, #habilidades {
+    color: #e66845;
+    font-size: 20px;
+}
+
+.habilidades-3 {
+    font-size: 20px;
+}
+
+li:nth-child(odd) {
+  color: rgb(255, 115, 115);
+  font-style: italic;
+}
+
+.descricao-completa {
+  position: absolute;
+  margin: auto;
+  top: 150px;
+  left: 500px;
+  bottom: 200px;
+}
+
+.foto {
+  float: left;
+  margin-top: 60px;
+  margin-left: 120px;
+  padding: 50px;
+  background-color: #e66845;
+  border-radius: 150px;
+}
+
+.resto {
+  position: absolute;
+  top: 500px;
+}
+
+.habilidades-rede-social {
+  position: relative;
+  top: 500px;
+  right: 280px;
+  margin-bottom: 200px;
+}
+
+a {
+    color: #7EA2AA;
+}

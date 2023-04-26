@@ -4,71 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Portfólio Web</title>
-    <style>
-        body {
-            font-family: 'Bruno Ace', cursive;
-            background-color: #EEF5DB;
-            font-weight: bold;            
-        }
-
-        img {
-            display: block;
-            margin: auto;
-            border-radius: 100px;
-        }
-        
-        .origem {
-            font-weight: lighter;
-            text-decoration: underline overline;
-            color: #570000;
-        }
-
-        h1, h2 {
-            color: #570000;
-            text-align: center;
-        }
-
-        #descricao, .indice, #habilidades {
-            color: #570000;
-            font-size: 20px;
-        }
-
-        .habilidades-3 {
-            font-size: 20px;
-
-        }
-
-        a {
-            color: #7EA2AA;
-        }
-
-    </style>
 </head>
 <body>
     <h1>Portfólio Web</h1>
-    <h2>Nome: Felipe Cadena</h2>
-    <img src="foto-felipe.jpeg" alt="Foto sorrindo do Felipe Cadena" width="200px">
 
-    <h3 class="indice">Índice:</h3>
-    <a href="#descricao">Descrição</a><br>
+    <h2 class="nome">Nome: Felipe Cadena</h2>
 
-    <a href="#habilidades">Habilidades</a><br>
+    <div class="foto">
+        <img src="foto-felipe.jpeg" alt="Foto sorrindo do Felipe Cadena" width="200px">
+    </div>
 
-    <a href="#redesocial">Rede Social Preferida</a>
+    <div class="resto">
+        <h3 class="indice">Índice:</h3>
+        <a href="#descricao">Descrição</a><br>
 
+        <a href="#habilidades">Habilidades</a><br>
 
-    <p class="nova-fonte-descricao"><strong id="descricao">Descrição sobre mim:</strong><br>
+        <a href="#redesocial">Site irado</a>
+    </div>
 
-        <br>Sou formado em Turismo e atuei durante 10 anos como consultor de viagens, sempre lidando com pessoas e atendimento.<br><br>
-        
-        No final de 2020, busquei novos ares, enveredei no mundo digital, criei meu próprio ecommerce e me especializei em Marketing Digital.<br><br>
-        
-        Sempre gostei muito de tecnologia e atualmente estou migrando para a área de desenvolvimento web, sempre buscando aprender e ter novas oportunidades!<br><br>
-    
-        <strong class="origem">Sou brasileiro, natural de Teresópolis mas resido no Rio de Janeiro.</strong></p>  
-        
+    <div class="descricao-completa">
+        <p class="nova-fonte-descricao"><strong id="descricao">Descrição:</strong><br>
+
+            <br>Sou formado em Turismo e atuei durante 10 anos como consultor de viagens, sempre lidando com pessoas e
+            atendimento.<br><br>
+
+            No final de 2020, busquei novos ares, enveredei no mundo digital, criei meu próprio ecommerce e me
+            especializei em Marketing Digital.<br><br>
+
+            Sempre gostei muito de tecnologia e atualmente estou migrando para a área de desenvolvimento web, sempre
+            buscando aprender e ter novas oportunidades!<br><br>
+
+            <strong class="origem">Sou brasileiro, natural de Teresópolis mas resido no Rio de Janeiro.</strong>
+        </p>
+    </div>
+
+    <div class="resto habilidades-rede-social">
         <p id="habilidades"><em>Lista de de Habilidades:</em></p>
         <ol class="habilidades-3">
             <li>HTML</li>
@@ -77,6 +51,8 @@
             <li>Boa comunicação</li>
         </ol>
 
-        <p id="redesocial"><a href="https://twitter.com/home" target="_blank">Rede social que mais gosto</a></p>
+        <p id="redesocial resto"><a href="https://chat.openai.com/" target="_blank">Site irado</a></p>
+    </div>
 </body>
-</html> 
+
+</html>
