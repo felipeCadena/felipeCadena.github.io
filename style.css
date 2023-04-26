@@ -1,0 +1,68 @@
+body {
+    font-family: 'Bruno Ace', cursive;
+    background-color: #EEF5DB;
+    font-weight: bold;            
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.origem {
+    font-weight: lighter;
+    text-decoration: underline overline;
+    color: #570000;
+}
+
+h1, h2 {
+    color: #570000;
+    text-align: center;
+}
+
+p a {
+  padding: 50px 0;
+}
+
+#descricao, .indice, #habilidades {
+    color: #570000;
+    font-size: 20px;
+}
+
+.habilidades-3 {
+    font-size: 20px;
+}
+
+.descricao-completa {
+  position: absolute;
+  margin: auto;
+  top: 150px;
+  left: 500px;
+  bottom: 200px;
+}
+
+.nome {
+}
+
+.foto {
+  float: left;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.resto {
+  position: absolute;
+  top: 500px;
+}
+
+.habilidades-rede-social {
+  position: relative;
+  top: 500px;
+  right: 280px;
+  margin-bottom: 200px;
+}
+
+a {
+    color: #7EA2AA;
+}
