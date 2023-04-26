@@ -1,23 +1,23 @@
 body {
-    font-family: 'Bruno Ace', cursive;
+    font-family: 'Chivo Mono', monospace;
     background-color: #EEF5DB;
     font-weight: bold;            
 }
 
 img {
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
     border-radius: 100px;
 }
 
 .origem {
     font-weight: lighter;
-    text-decoration: underline overline;
-    color: #570000;
+    text-decoration: underline;
+    color: #e66845;
 }
 
 h1, h2 {
-    color: #570000;
+    color: #e66845;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ p a {
 }
 
 #descricao, .indice, #habilidades {
-    color: #570000;
+    color: #e66845;
     font-size: 20px;
 }
 
@@ -42,13 +42,13 @@ p a {
   bottom: 200px;
 }
 
-.nome {
-}
-
 .foto {
   float: left;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 120px;
+  padding: 50px;
+  background-color: #e66845;
+  border-radius: 150px;
 }
 
 .resto {
